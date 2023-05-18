@@ -8,10 +8,9 @@ import { Conversation, User } from "@prisma/client";
 
 import useOtherUser from "@/app/hooks/useOtherUser";
 import useActiveList from "@/app/hooks/useActiveList";
-
-import AvatarGroup from "@/app/components/AvatarGroup";
 import ProfileDrawer from "./ProfileDrawer";
 import Avatar from '@/components/Avatar';
+import AvatarGroup from '@/components/AvatarGroup';
 
 interface HeaderProps {
   conversation: Conversation & {
