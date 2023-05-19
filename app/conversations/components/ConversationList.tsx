@@ -13,7 +13,6 @@ import { pusherClient } from "@/app/libs/pusher";
 import { FullConversationType } from "@/app/types";
 import GroupChatModal from "@/components/modals/GroupChatModal";
 import ConversationBox from "./ConversationBox";
-import {find} from "lodash"
 interface ConversationListProps {
   initialItems: FullConversationType[];
   users: User[];
